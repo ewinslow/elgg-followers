@@ -10,4 +10,13 @@
 		<type>elgg_version</type>
 		<version>2011031400</version>
 	</requires>
+	
+	<screenshot>
+		<description>Widgets for profile</description>
+		<path>screenshots/widgets.png</path>
+	</screenshot>
+	<screenshot>
+		<description>Menu items in profile and user_hover menus</description>
+		<path>screenshots/owner-block-follow.png</path>
+	</screenshot>
 </plugin_manifest>
