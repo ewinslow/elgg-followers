@@ -20,6 +20,9 @@ function followers_init() {
 	global $CONFIG, $following_original_activity_page_handler;
 	$following_original_activity_page_handler = $CONFIG->pagehandler['activity'];
 	elgg_register_page_handler('activity', 'followers_activity_page_handler');
+	
+	elgg_register_widget_type('following', elgg_echo('widgets:following:name'), elgg_echo('widgets:following:description'));
+	elgg_register_widget_type('followers', elgg_echo('widgets:followers:name'), elgg_echo('widgets:followers:description'));
 }
 
 function followers_activity_page_handler($segments, $handle) {
