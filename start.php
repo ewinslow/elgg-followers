@@ -14,6 +14,7 @@ function followers_init() {
 			'href' => "/activity/following",
 			'text' => "Following",
 			'priority' => 500,
+			'contexts' => array('activity'),
 		));
 	}
 	
