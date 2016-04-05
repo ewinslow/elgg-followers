@@ -18,8 +18,8 @@ function followers_init() {
 		));
 	}
 	
-	global $CONFIG, $following_original_activity_page_handler;
-	$following_original_activity_page_handler = $CONFIG->pagehandler['activity'];
+	global $following_original_activity_page_handler;
+  $following_original_activity_page_handler = _elgg_services()->router->getPageHandlers()['activity'];
 	elgg_register_page_handler('activity', 'followers_activity_page_handler');
 	
 	elgg_register_widget_type('following', elgg_echo('widgets:following:name'), elgg_echo('widgets:following:description'));

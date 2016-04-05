@@ -7,8 +7,8 @@
 	<copyright>(C) Evan Winslow 2010</copyright>
     <website>http://github.com/ewinslow/elgg-followers</website>
 	<requires>
-		<type>elgg_version</type>
-		<version>2011031400</version>
+		<type>elgg_release</type>
+		<version>1.9</version>
 	</requires>
 	
 	<screenshot>
